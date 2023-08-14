@@ -94,7 +94,7 @@
     padding: 20px;
   }
   .leftsection .flex-1 {
-    flex: 50%;
+    flex: 100%;
     object-fit: contain;
   }
   .leftsection .flex-1 .image {
@@ -103,7 +103,7 @@
   }
 
   .leftsection .content {
-    flex: 50%;
+    flex: 100%;
     justify-content: center;
     align-items: center;
     margin: auto;
@@ -144,7 +144,7 @@
   }
 
   .bannersection {
-    background: url("../assests/home/firechair.png") no-repeat;
+    /* background: url("../assests/home/firechair.png") no-repeat; */
     width: 100%;
     max-width: auto;
     min-width: auto;
@@ -182,7 +182,7 @@
   }
 
   .bannersection2 {
-    background: url("../assests/home/Poujoulat.png") no-repeat;
+    /* background: url("../assests/home/Poujoulat.png") no-repeat; */
     width: 100%;
     max-width: auto;
     min-width: auto;
