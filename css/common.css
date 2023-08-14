@@ -1179,7 +1179,7 @@ section {
 }
 
 .bannersection {
-  background: url("../assests/home/firechair.png") no-repeat;
+  background: url("../assets/home/firechair.png") no-repeat;
   width: 100%;
   max-width: 1920px;
   min-width: auto;
@@ -1217,7 +1217,7 @@ section {
 }
 
 .bannersection2 {
-  background: url("../assests/home/Poujoulat.png") no-repeat;
+  background: url("../assets/home/Poujoulat.png") no-repeat;
   width: 100%;
   max-width: 1920px;
   min-width: auto;
@@ -1542,6 +1542,72 @@ section {
   color: #c4212d;
 }
 
+/*--------------------------------------------------------------
+# Modal
+--------------------------------------------------------------*/
+
+.modal.show  {
+  display:flex!important;
+  flex-direction:column;
+  justify-content:center;
+  align-content:center;
+  align-items: flex-start;
+}
+
+.modal input, .modal textarea {
+  background: #FFFFFF ;
+border: 1px solid #85171E;
+border-radius: 2px;
+opacity: 1;
+margin-bottom: 20px;
+}
+
+.modal button[type=submit] {
+  font-family:var(--font-default);
+  font-size: 19px;
+letter-spacing: 0px;
+color: #F2780C;
+opacity: 1;
+background-color: transparent;
+border: 1px solid #F2780C;
+padding: 16px 63px;
+}
+
+.modal-header {
+  border: none;
+  text-align: center;
+  justify-content: center;
+}
+
+.modal button[type=button] {
+  font-family:var(--font-default);
+  font-size: 19px;
+letter-spacing: 0px;
+color: #F2780C;
+opacity: 1;
+background-color: transparent;
+border: 1px solid #F2780C;
+text-align: right;
+}
+
+.modal h5 {
+font-family: var(--font-default);
+font-size: 32px;
+font-weight: bold;
+letter-spacing: 0px;
+color: #F2780C;
+opacity: 1;
+}
+
+.modal p {
+font-family: var(--font-default);
+font-size: 20px;
+font-weight: bold;
+letter-spacing: 0px;
+color: #BF3604;
+border: none;
+opacity: 1;
+}
 
 
 
