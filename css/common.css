@@ -55,10 +55,39 @@ h6 {
   font-family: var(--font-default);
 }
 
+
+h2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: var(---bf3604);
+  text-align: left;
+  font: normal normal bold 40px/46px Roboto;
+  letter-spacing: 0px;
+  color: #bf3604;
+}
+h3 {
+  text-align: center;
+  font: normal normal 800 35px/48px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+h4 {
+  color: var(--unnamed-color-ffffff);
+  text-align: center;
+  font: normal normal 800 35px/48px Open Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+
 .heading-two {
   font-family: var(--font-default);
   font-size: 40px;
   color: var(--color-heading);
+  text-align: center;
 }
 
 .para{
@@ -815,6 +844,7 @@ section {
   color: var(--color-heading);
   font-weight: 700;
   margin: 0 0 5px 0;
+  text-align: center;
 }
 .contact p {
   font-size: 20px;
@@ -924,7 +954,7 @@ section {
 .hero {
   width: 100%;
   background-size: cover;
-  background-image: url("../img/home/Deco-Heat-Banner-Placeholder.png"), linear-gradient(180deg, #EBEBEB 0%, #FDC459 17%, #85171E 100%);
+  background-image: url("../assets/home/Deco-Heat-Banner-Placeholder.png"), linear-gradient(180deg, #EBEBEB 0%, #FDC459 17%, #85171E 100%);
   position: relative;
   min-height: 660px;
   padding: 160px 0 60px 0;
@@ -1013,6 +1043,508 @@ section {
   }
 }
 
+
+
+
+/* Home Page Content */
+
+.description {
+  text-align: left;
+  font: normal normal normal 17px/27px Roboto;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  /* height: 784px; */
+  /* line-height: 1;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis; */
+}
+
+.subtitle {
+  text-align: left;
+  font: normal normal normal 22px/27px Roboto;
+  letter-spacing: 0px;
+  color: #414141;
+  margin-bottom: 20px;
+}
+
+/* rightside image section */
+.rightsection {
+  display: flex;
+  height: auto;
+  min-height: unset;
+  width: 100%;
+  max-width: 1920px;
+  min-width: auto;
+  padding: 49px 0px 50px 174px;
+  @media screen and (max-width: 1200px) {
+    padding: 49px 0px 50px 90px;
+  }
+}
+.rightsection .flex-2 {
+  flex: 50%;
+  object-fit: cover;
+}
+.rightsection .flex-2 .image {
+  height: 100%;
+  width: 100%;
+}
+.rightsection .content {
+  flex: 50%;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  margin: auto;
+  padding: 0px 105px 45px 0px;
+  @media screen and (max-width: 1200px) {
+    padding: 0px 50px 45px 0px;
+  }
+  h2 {
+    color: var(---bf3604);
+    text-align: left;
+    font: normal normal bold 40px/46px Roboto;
+    letter-spacing: 0px;
+    color: #bf3604;
+  }
+}
+
+/* leftside image section */
+.leftsection {
+  display: flex;
+  max-width: 1920px;
+  min-width: auto;
+  min-height: unset;
+  width: 100%;
+  padding: 49px 174px 50px 0px;
+  @media screen and (max-width: 1200px) {
+    padding: 49px 90px 50px 0px;
+  }
+  @media screen and(max-width:1920px) {
+    min-height: 648px;
+  }
+}
+.leftsection .flex-1 {
+  flex: 50%;
+  object-fit: contain;
+}
+.leftsection .flex-1 .image {
+  width: 100%;
+  height: 100%;
+}
+
+.leftsection .content {
+  flex: 50%;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 0px 0px 0px 93px;
+  @media screen and (max-width: 1200px) {
+    padding: 0px 0px 0px 40px;
+  }
+}
+.leftsection .content h2 {
+  text-align: left;
+  font: normal normal bold 40px/46px Roboto;
+  letter-spacing: 0px;
+  color: #450c10;
+  opacity: 1;
+}
+
+.orangebutton {
+  border: 2px solid var(---f2780c);
+  border: 2px solid #f2780c;
+  width: 263px;
+  height: 59px;
+  background-color: transparent;
+  color: var(---f2780c);
+  text-align: center;
+  font: normal normal normal 16px/19px Roboto;
+  letter-spacing: 0px;
+  color: #f2780c;
+}
+.transparentbutton {
+  border: 2px solid var(---f2780c);
+  border: 2px solid #ffffff;
+  width: 263px;
+  height: 59px;
+  color: #ffffff;
+  background-color: transparent;
+  color: var(--unnamed-color-ebebeb);
+  text-align: center;
+  font: normal normal normal 16px/19px Roboto;
+  letter-spacing: 0px;
+  color: #ebebeb;
+}
+
+.bannersection {
+  background: url("../assests/home/firechair.png") no-repeat;
+  width: 100%;
+  max-width: 1920px;
+  min-width: auto;
+  max-height: 309px;
+  height: auto;
+  display: flex;
+  background-size: cover;
+}
+
+.bannersection div {
+  max-width: 1920px;
+  min-width: auto;
+  min-height: 309px;
+  height: auto;
+  background-color: rgb(0, 0, 0, 0.8);
+  background-size: 100% auto;
+  margin: auto;
+}
+.bannersection .bannercontent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  flex-direction: column;
+  margin: auto;
+}
+.bannersection div h4 {
+  color: var(--unnamed-color-ffffff);
+  text-align: center;
+  font: normal normal 800 35px/48px Open Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+  padding-bottom: 30px;
+}
+
+.bannersection2 {
+  background: url("../assests/home/Poujoulat.png") no-repeat;
+  width: 100%;
+  max-width: 1920px;
+  min-width: auto;
+  max-height: 309px;
+  height: auto;
+  display: flex;
+  background-size: cover;
+}
+.bannersection2 .bannercontent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+  font: normal normal normal 22px/27px Roboto;
+  letter-spacing: 0px;
+  color: #414141;
+}
+
+.bannersection2 div {
+  max-width: 1920px;
+  min-width: auto;
+  min-height: 309px;
+  height: auto;
+  background-color: rgb(255, 255, 255, 0.2);
+  background-size: 100% auto;
+  margin: 5px;
+}
+.bannersection2 div h3 {
+  text-align: center;
+  font: normal normal 800 35px/48px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+}
+.bannersection2 div p {
+  text-align: center;
+  font: normal normal normal 22px/27px Roboto;
+  letter-spacing: 0px;
+  color: #414141;
+  margin: 20px 0px 35px 0px;
+}
+
+.logosection {
+  padding-top: 62px;
+  max-width: 1920px;
+  display: flex;
+  flex-grow: initial;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.logosection div {
+  text-align: center;
+  justify-content: end;
+  width: auto;
+  align-items: end;
+
+  padding: 0px 80px 0px 80px;
+}
+
+.logosection div img {
+  height: auto;
+  width: auto;
+}
+
+
+/* Product Silo Page  */
+.productsilo {
+  flex: auto;
+  align-items: center;
+  max-width: 1920px;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+  padding: 0px 14% 0px 14%;
+  @media screen and (max-width:1440px) and (min-width:960px){
+    padding: 0px 10% 0px 10%;
+  }
+}
+.productsilo h1 {
+  font: var(--unnamed-font-style-normal) normal 900 60px/72px
+    var(--unnamed-font-family-roboto);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-85171e);
+  text-align: center;
+  font: normal normal 900 60px/72px Roboto;
+  letter-spacing: 0px;
+  color: #85171e;
+  padding: 75px 0px 50px 0px;
+}
+
+.productcard {
+  display: flex;
+  width: 100%;
+  gap: 80px;
+  padding: 68px 0px 68px 0px;
+}
+
+.productcard .proimg {
+  flex: 50%;
+  width: 100%;
+}
+
+.productcard .prodesc {
+  flex: 50%;
+  width: 100%;
+}
+
+.productcard .prodesc .desc {
+  font: var(--unnamed-font-style-normal) normal
+    var(--unnamed-font-weight-normal) var(--unnamed-font-size-16) /
+    var(--unnamed-line-spacing-27) var(--unnamed-font-family-roboto);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-000000);
+  text-align: left;
+  font: normal normal normal 16px/27px Roboto;
+  letter-spacing: 0px;
+  color: #000000;
+  padding-top: 40px;
+}
+.productcard .prodesc .desc .orangebutton {
+  width: 263px;
+}
+
+.productcard .proimg img {
+  height: 100%;
+  width: 100%;
+}
+.productcard .prodesc h2 {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    var(--unnamed-font-size-40) / var(--unnamed-line-spacing-46)
+    var(--unnamed-font-family-roboto);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-450c10);
+  text-align: left;
+  font: normal normal bold 40px/46px Roboto;
+  letter-spacing: 0px;
+  color: #450c10;
+  opacity: 1;
+}
+
+.productcard .prodesc h3 {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    var(--unnamed-font-size-20) / var(--unnamed-line-spacing-27)
+    var(--unnamed-font-family-roboto);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-000000);
+  text-align: left;
+  font: normal normal bold 20px/27px Roboto;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.productcard1 {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  gap: 80px;
+  padding: 68px 0px 68px 0px;
+}
+
+.productcard1 .proimg {
+  flex: 50%;
+}
+
+.productcard1 .prodesc {
+  flex: 50%;
+}
+
+.productcard1 .prodesc .desc {
+  font: var(--unnamed-font-style-normal) normal
+    var(--unnamed-font-weight-normal) var(--unnamed-font-size-16) /
+    var(--unnamed-line-spacing-27) var(--unnamed-font-family-roboto);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-000000);
+  text-align: left;
+  font: normal normal normal 16px/27px Roboto;
+  letter-spacing: 0px;
+  color: #000000;
+  padding-top: 40px;
+}
+.productcard1 .prodesc .desc .orangebutton {
+  width: 263px;
+}
+
+.productcard1 .proimg img {
+  height: 100%;
+  width: 100%;
+}
+.productcard1 .prodesc h2 {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    var(--unnamed-font-size-40) / var(--unnamed-line-spacing-46)
+    var(--unnamed-font-family-roboto);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-450c10);
+  text-align: left;
+  font: normal normal bold 40px/46px Roboto;
+  letter-spacing: 0px;
+  color: #450c10;
+}
+
+.productcard1 .prodesc h3 {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    var(--unnamed-font-size-20) / var(--unnamed-line-spacing-27)
+    var(--unnamed-font-family-roboto);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-000000);
+  text-align: left;
+  font: normal normal bold 20px/27px Roboto;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.formsection {
+  width: auto;
+  max-width: 1920px;
+  text-align: center;
+  margin: auto;
+  background: var(--unnamed-color-ebebeb) 0% 0% no-repeat padding-box;
+  background: #ebebeb 0% 0% no-repeat padding-box;
+  padding-bottom: 49px;
+
+}
+
+.contactform {
+  padding: 30px;
+  width: auto;
+  max-width: 1920px;
+  display: grid;
+  margin: auto;
+  grid-template-columns: auto auto;
+  gap: 30px;
+  padding: 0px 100px 100px 100px;
+}
+.formsection .title h1 {
+  width: auto;
+  text-align: left;
+  max-width: 699px;
+  margin: auto;
+  padding: 49px;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    var(--unnamed-font-size-40) / var(--unnamed-line-spacing-46)
+    var(--unnamed-font-family-roboto);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-450c10);
+  text-align: center;
+  font: normal normal bold 40px/46px Roboto;
+  letter-spacing: 0px;
+  color: #450c10;
+}
+.contactform .formcontrol {
+  width: auto;
+}
+
+.contactform .formcontrol1 {
+  grid-column: 1 / span 2;
+  grid-row: 3;
+}
+.contactform .formcontrol1 textarea {
+  width: 100%;
+  height: 266px;
+  padding: 10px 40px;
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #8e8e8e;
+  border-radius: 5px;
+  font: var(--unnamed-font-style-normal) normal
+    var(--unnamed-font-weight-normal) var(--unnamed-font-size-20) / 44px
+    var(--unnamed-font-family-roboto);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-000000);
+  text-align: left;
+  font: normal normal normal 20px/44px Roboto;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 0.76;
+  resize: none;
+}
+.contactform .formsubmit {
+  grid-column: 1 / span 2;
+  grid-row: 4;
+  text-align: center;
+}
+
+.contactform .formcontrol input,
+.contactform .formcontrol1 input {
+  width: 100%;
+  padding: 10px 40px;
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #8e8e8e;
+  border-radius: 5px;
+  font: var(--unnamed-font-style-normal) normal
+    var(--unnamed-font-weight-normal) var(--unnamed-font-size-20) / 44px
+    var(--unnamed-font-family-roboto);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-000000);
+  text-align: left;
+  font: normal normal normal 20px/44px Roboto;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 0.76;
+}
+
+.submitbutton {
+  width: 263px;
+  height: 59px;
+  border: 2px solid var(--unnamed-color-c4212d);
+  border: 2px solid #c4212d;
+  font: var(--unnamed-font-style-normal) normal
+    var(--unnamed-font-weight-normal) var(--unnamed-font-size-20) /
+    var(--unnamed-line-spacing-24) var(--unnamed-font-family-roboto);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-c4212d);
+  text-align: center;
+  font: normal normal normal 20px/24px Roboto;
+  letter-spacing: 0px;
+  color: #c4212d;
+}
+
+
+
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -1046,6 +1578,7 @@ section {
   position: relative;
   padding-bottom: 25px;
   color: var(--color-footer-head);
+  text-align: left;
 }
 
 .footer h4 {
@@ -1055,6 +1588,7 @@ section {
   position: relative;
   padding-bottom: 5px;
   color: #fff;
+  text-align: left;
 }
 
 .footer span {
