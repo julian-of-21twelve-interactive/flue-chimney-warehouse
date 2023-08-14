@@ -21,6 +21,10 @@
   --color-heading:#85171E;
   --color-heading-secondary:#450C10;
   --color-para:#000000;
+  --color-table-head:#85171E;
+  --color-table-head-text:#FFFFFF;
+  --color-table-body:#EBEBEB;
+  --color-table-body-text:#000000;
 }
 
 /* Smooth scroll behavior */
@@ -1610,6 +1614,58 @@ opacity: 1;
 }
 
 
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+.table-container {
+  padding: 0 140px;
+  margin: 50px 0;
+}
+
+@media (max-width:700px) { 
+.table-container {
+  padding: 0 100px;
+  margin: 50px 0;
+}
+}
+@media (max-width:500px) { 
+.table-container {
+  padding: 0 50px;
+  margin: 50px 0;
+}
+}
+
+
+  .table .table-head {
+  background-color: var(--color-table-head);
+  color: var(--color-table-head-text);
+  font-family: var(--font-primary);
+  font-size: 20px;
+}
+
+.table .table-body {
+  background-color: var(--color-table-body);
+  color: var(--color-table-body-text);
+  font-family: var(--font-primary);
+  font-size: 20px;
+  border: 1px solid var(--color-white);
+}
+
+.image-container .reservation-img {
+  /* min-height: 500px; */
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width:800) {
+  
+.image-container .reservation-img {
+  /* min-height: 500px; */
+  max-height: 50%;
+}
+}
 
 /*--------------------------------------------------------------
 # Footer
